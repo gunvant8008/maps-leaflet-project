@@ -26,6 +26,7 @@ const SearchBox = props => {
             style={{ width: "100%" }}
             value={searchText}
             onChange={e => setSearchText(e.target.value)}
+            placeholder="Search..."
           />
         </div>
         <div
